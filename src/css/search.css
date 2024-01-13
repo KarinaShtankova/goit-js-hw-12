@@ -57,16 +57,22 @@
   background-color: #6c8cff;
 }
 
-
-
+.btn-load {
+  display: block;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Loader start */
 
-.text{
+.text {
   text-align: center;
 }
 
 .loader {
+  margin-top: 24px;
+  margin-bottom: 24px;
   margin-left: auto;
   margin-right: auto;
   width: 48px;
@@ -105,7 +111,6 @@
 
 /* Loader end */
 
-
 /* Gallery */
 
 .gallery-list {
@@ -129,7 +134,7 @@
 /* Description */
 
 .desc {
-padding: 8px 16px 8px 16px;
+  padding: 8px 16px 8px 16px;
   display: flex;
   justify-content: space-between;
 }
@@ -143,4 +148,8 @@ padding: 8px 16px 8px 16px;
   font-size: 14px;
   text-transform: capitalize;
   text-align: center;
+}
+
+.is-hidden {
+  display: none;
 }
